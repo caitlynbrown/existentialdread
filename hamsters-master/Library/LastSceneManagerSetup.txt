@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/hammychan.unity
+- path: Assets/treehouseDemo.unity
   isLoaded: 1
   isActive: 1
