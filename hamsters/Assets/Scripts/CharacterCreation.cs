@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.Networking;
 
-public class CharacterCreation : MonoBehaviour {
+public class CharacterCreation : NetworkBehaviour {
 
 	public List<GameObject> models;
 
@@ -72,8 +72,9 @@ public class CharacterCreation : MonoBehaviour {
 		PlayerPrefs.SetInt("CharacterSelected", selectionIndex);
 
 
+		//SceneManager.LoadScene("newhammy");
 
-		SceneManager.LoadScene("newhammy");
+		NetworkManager.singleton.ServerChangeScene ("newhammy");
 
 	}
 

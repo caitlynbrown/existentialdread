@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hamsters", "Assembly-CSharp.csproj", "{B3666F67-71C0-0BFB-0D13-076F48F76745}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B3666F67-71C0-0BFB-0D13-076F48F76745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -55,6 +55,15 @@ public class Health : NetworkBehaviour {
 				
 	}
 
+	public void RecoverHealth(int amount){
+	
+		currentHealth += amount;
+		if (currentHealth > maxHealth) {
+			currentHealth = maxHealth;
+		}
+	
+	}
+
 	void OnChangeHealth(int currentHealth){
 
 		healthBar.sizeDelta = new Vector2 (currentHealth, healthBar.sizeDelta.y);

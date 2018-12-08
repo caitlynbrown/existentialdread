@@ -9,6 +9,9 @@ TagManager:
   - player2
   - platform_collider_AI
   - AI
+  - pickup
+  - AIHitbox
+  - projectile
   layers:
   - Default
   - TransparentFX
@@ -45,4 +48,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 3
+    uniqueID: 3189616585
     locked: 0
